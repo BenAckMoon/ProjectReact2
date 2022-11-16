@@ -1,0 +1,129 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  height: 100px;
+}
+
+.FormTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  color: black;
+  padding: 5px 5px 5px 5px;
+  margin: 100px;
+  margin-top: 10px;
+}
+
+.Notes {
+  align-self: center;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 2px 2px #b7b7b7;
+  padding: 10px 0 130px 20px;
+  width: 300px;
+  height: 80px;
+  margin: -90px 0 20px 0;
+  font-family: "Poppins";
+  resize: none;
+  overflow: hidden;
+
+}
+
+.AddButton {
+  align-self: center;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 2px 2px #b7b7b7;
+  background-color: white;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  width: 300px;
+  height: 50px;
+}
+
+.AddButton:hover {
+  cursor: pointer;
+  background-color: #cecece;
+}
+
+.Note-Wrapper {
+  display: grid;
+  display: inline-block;
+  flex-wrap: nowrap;
+  margin: 20px;
+  width: 260px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  word-break: break-all;
+  box-shadow: 0px 0px 2px 5px #b7b7b7;
+}
+
+.Date-Note {
+  padding: 10px 10px 15px 10px;
+  font-size: smaller;
+  font-weight: bold;
+  color: #aeaeae;
+  word-break: break-all;
+}
+
+.modalWrapper {
+  display: grid;
+  display: inline-block;
+  flex-wrap: nowrap;
+  border: 2px solid black;
+  box-shadow: 0px 0px 2px 2px #b7b7b7;
+  margin: 30px;
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #efefef;
+}
+
+.statuNote {
+  align-self: center;
+  margin: 10px 0 0 10px;
+  padding: 10px 20px 70px 20px;
+  width: 220px;
+  height: 80px;
+  border: 0.5px solid rgb(109, 107, 107);
+  background-color: #efefef;
+  border-radius: 10px;
+  overflow: hidden;
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+
+.Status-Note {
+  padding-left: 10px;
+  font-size: medium;
+}
+
+.Delete-Wrapper,
+.Edit-Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+
+.Delete-Button {
+  margin: -45px 6px 0 0;
+}
+
+.Edit-Button {
+  margin: -45px 45px 0 0;
+}
+
+.Close-Button {
+  margin-left: 105px;
+  border: none;
+}
+
+.Update-Button {
+  border: none;
+  margin: 20px -20px 0 50px;
+}
